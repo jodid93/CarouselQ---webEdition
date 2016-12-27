@@ -7,6 +7,8 @@ path = require('path')
 
 import { Server } from 'http';
 
+// TODO remove this comment
+
 var app = express();
 const server = new Server(app);
 var port = process.env.PORT || 3000;
